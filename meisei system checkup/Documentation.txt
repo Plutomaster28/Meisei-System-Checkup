@@ -1,0 +1,21 @@
+System File Checker
+> sfc /scannow
+
+Deployment Image Servicing and Management
+> DISM /Online /Cleanup-Image /RestoreHealth
+
+System File Repair
+> chkdsk /f /r
+
+Memory Diagnostic Tool
+> mdsched.exe
+
+Performance Monitor
+> perfmon /report
+
+Disk Cleanup
+> cleanmgr
+
+Defragment and Optimize Drive
+> dfrgui
+
